@@ -1,5 +1,5 @@
 [Unit]
-Description=__APP__ service
+Description=__APP__ - Music player for your local audio files
 After=network.target
 
 [Service]
