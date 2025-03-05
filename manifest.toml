@@ -18,7 +18,7 @@ code = "https://github.com/swingmx/swingmusic"
 [integration]
 yunohost = ">= 12.1.1"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -38,12 +38,18 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.1/swingmusic_linux_amd64"
-        sha256 = "7bd84febe73e60598511b9e11d6481b80add65be4ece3d5de9b9e7e015d207c5"
+        amd64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.1/swingmusic_linux_amd64"
+        amd64.sha256 = "7bd84febe73e60598511b9e11d6481b80add65be4ece3d5de9b9e7e015d207c5"
+
+        arm64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.1/swingmusic_linux_arm64"
+        arm64.sha256 = "1ecec163fd7441297593e0e545bbc285db8b507a2ba47670c0977e540732379a"
+
         extract = false
         rename = "swingmusic"
 
         autoupdate.strategy = "latest_github_tag"
+        autoupdate.asset.amd64 = ".*amd64"
+        autoupdate.asset.arm64 = ".*arm64"
 
     [resources.ports]
 
