@@ -23,11 +23,6 @@ Semblable à Spotify plus cool ... mais avec votre propre musique. Lancez seulem
 
 
 **Version incluse :** 2.0.1~ynh1
-
-## Captures d’écran
-
-![Capture d’écran de Swing Music](./doc/screenshots/example.jpg)
-
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://swingmx.com/>
