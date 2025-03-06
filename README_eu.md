@@ -22,6 +22,11 @@ Swing Music is a beautiful, self-hosted music player for your local audio files.
 
 
 **Paketatutako bertsioa:** 2.0.1~ynh1
+
+## Pantaila-argazkiak
+
+![Swing Music(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
+
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://swingmx.com/>

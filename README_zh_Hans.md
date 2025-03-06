@@ -22,6 +22,11 @@ Swing Music is a beautiful, self-hosted music player for your local audio files.
 
 
 **分发版本：** 2.0.1~ynh1
+
+## 截图
+
+![Swing Music 的截图](./doc/screenshots/screenshot.png)
+
 ## 文档与资源
 
 - 官方应用网站： <https://swingmx.com/>
