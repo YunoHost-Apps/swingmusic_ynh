@@ -47,7 +47,7 @@ ram.runtime = "50M"
         extract = false
         rename = "swingmusic"
 
-        autoupdate.strategy = "latest_github_tag"
+        autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = ".*amd64"
         autoupdate.asset.arm64 = ".*arm64"
 
