@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Swing Music para Yunohost
+# Swing Music para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/swingmusic)](https://ci-apps.yunohost.org/ci/apps/swingmusic/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/swingmusic)
