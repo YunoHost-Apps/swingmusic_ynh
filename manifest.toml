@@ -49,7 +49,7 @@ ram.runtime = "50M"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = ".*amd64"
-        autoupdate.asset.arm64 = ".*arm64"
+        autoupdate.asset.arm64 = ".*arm64$"
 
     [resources.ports]
 
