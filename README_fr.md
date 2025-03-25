@@ -22,7 +22,7 @@ Swing Music est un magnigique lecteur de musiques auto-hébergé pour vos fichie
 Semblable à Spotify plus cool ... mais avec votre propre musique. Lancez seulement l'application et profitez de votre audiothèque dans un navigateur web.
 
 
-**Version incluse :** 2.0.1~ynh1
+**Version incluse :** 2.0.2~ynh1
 
 ## Captures d’écran
 
