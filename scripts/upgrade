@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -8,41 +12,36 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Stopping $app's systemd service..."
 
-ynh_systemctl --service=$app --action=stop --log_path="systemd"
+ynh_systemctl --service="$app" --action="stop" --log_path="systemd"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
+# Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir"
 
 chmod a+x "$install_dir"/swingmusic
 
 #=================================================
-# REAPPLY SYSTEM CONFIGURATIONS
+# REAPPLY SYSTEM CONFIGURATION
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
 
 ynh_config_add_nginx
 
 ynh_config_add_systemd
+yunohost service add "$app" --description="$app - Music player for your local audio files" --log="/var/log/$app/$app.log"
 
 ynh_config_add_logrotate
-
-#=================================================
-# INTEGRATE SERVICE IN YUNOHOST
-#=================================================
-ynh_script_progression "Integrating service in YunoHost..."
-
-yunohost service add $app --description="$app - Music player for your local audio files" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service=$app --action=start --log_path="systemd"
+ynh_systemctl --service="$app" --action="start" --log_path="systemd"
 
 #=================================================
 # END OF SCRIPT

@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "swingmusic"
@@ -5,7 +7,7 @@ name = "Swing Music"
 description.en = "Beautiful music player for your local audio files"
 description.fr = "Magnifique lecteur de musique pour vos fichiers audios locaux"
 
-version = "2.0.1~ynh1"
+version = "2.0.2~ynh1"
 
 maintainers = ["Thovi98"]
 
@@ -22,6 +24,7 @@ architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
+
 sso = false
 
 disk = "50M"
@@ -37,21 +40,20 @@ ram.runtime = "50M"
     default = "visitors"
 
 [resources]
-        [resources.sources.main]
-        amd64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.1/swingmusic_linux_amd64"
-        amd64.sha256 = "7bd84febe73e60598511b9e11d6481b80add65be4ece3d5de9b9e7e015d207c5"
 
-        arm64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.1/swingmusic_linux_arm64"
-        arm64.sha256 = "1ecec163fd7441297593e0e545bbc285db8b507a2ba47670c0977e540732379a"
+    [resources.sources.main]
+    amd64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.2/swingmusic_linux_amd64"
+    amd64.sha256 = "2ebc44eb2cb2c83d4ef12180369c7bbd39b7fa9e3a2fa81039f904f41f567297"
 
-        extract = false
-        rename = "swingmusic"
+    arm64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.2/swingmusic_linux_arm64"
+    arm64.sha256 = "f2a329863e3d672dbcbcfeee5000a654ae46b4d8e9a3bfc87e4ea442063456e1"
 
-        autoupdate.strategy = "latest_github_release"
-        autoupdate.asset.amd64 = ".*amd64"
-        autoupdate.asset.arm64 = ".*arm64$"
+    extract = false
+    rename = "swingmusic"
 
-    [resources.ports]
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = ".*amd64"
+    autoupdate.asset.arm64 = ".*arm64$"
 
     [resources.system_user]
 
@@ -59,6 +61,8 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+
+    [resources.ports]
 
     [resources.apt]
     packages = ["ffmpeg", "libavcodec-extra", "libavcodec-extra59"]
