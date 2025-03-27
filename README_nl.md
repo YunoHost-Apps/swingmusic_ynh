@@ -21,7 +21,7 @@ Hij mag NIET handmatig aangepast worden.
 Swing Music is a beautiful, self-hosted music player for your local audio files. Like a cooler Spotify ... but bring your own music. Just run the app and enjoy your music library in a web browser.
 
 
-**Geleverde versie:** 2.0.1~ynh1
+**Geleverde versie:** 2.0.2~ynh1
 
 ## Schermafdrukken
 

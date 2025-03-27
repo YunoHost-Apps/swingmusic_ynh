@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Swing Music para Yunohost
+# Swing Music para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/swingmusic)](https://ci-apps.yunohost.org/ci/apps/swingmusic/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/swingmusic)
@@ -21,7 +21,7 @@ No se debe editar a mano.
 Swing Music is a beautiful, self-hosted music player for your local audio files. Like a cooler Spotify ... but bring your own music. Just run the app and enjoy your music library in a web browser.
 
 
-**Versión actual:** 2.0.1~ynh1
+**Versión actual:** 2.0.2~ynh1
 
 ## Capturas
 

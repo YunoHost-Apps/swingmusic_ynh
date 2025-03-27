@@ -21,7 +21,7 @@ EZ editatu eskuz.
 Swing Music is a beautiful, self-hosted music player for your local audio files. Like a cooler Spotify ... but bring your own music. Just run the app and enjoy your music library in a web browser.
 
 
-**Paketatutako bertsioa:** 2.0.1~ynh1
+**Paketatutako bertsioa:** 2.0.2~ynh1
 
 ## Pantaila-argazkiak
 
@@ -39,7 +39,7 @@ Swing Music is a beautiful, self-hosted music player for your local audio files.
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/swingmusic_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/swingmusic_ynh/tree/testing --debug
