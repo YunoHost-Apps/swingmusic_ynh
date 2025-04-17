@@ -65,4 +65,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = ["ffmpeg", "libavcodec-extra", "libavcodec-extra59"]
+    packages = ["ffmpeg", "libev-dev", "libavcodec-extra", "libavcodec-extra59"]
