@@ -4,14 +4,14 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/swingmusic.png" width="32px" alt="Logo of Swing Music">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/swingmusic.png" width="32px" alt="Logo of Swing Music">
   Swing Music, packaged for YunoHost
 </h1>
 
 Beautiful music player for your local audio files
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://swingmx.com/)
-![Version: 2.0.2~ynh1](https://img.shields.io/badge/Version-2.0.2~ynh1-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 2.0.2~ynh1](https://img.shields.io/badge/Version-2.0.2~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/swingmusic/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/swingmusic"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
