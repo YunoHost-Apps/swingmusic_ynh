@@ -7,7 +7,7 @@ name = "Swing Music"
 description.en = "Beautiful music player for your local audio files"
 description.fr = "Magnifique lecteur de musique pour vos fichiers audios locaux"
 
-version = "2.0.9~ynh1"
+version = "2.0.9~ynh2"
 
 maintainers = ["Thovi98"]
 
