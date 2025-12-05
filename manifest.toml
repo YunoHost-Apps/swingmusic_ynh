@@ -51,8 +51,8 @@ ram.runtime = "100M"
     rename = "swingmusic"
 
     autoupdate.strategy = "latest_github_release"
-    autoupdate.asset.amd64 = "swingmusic_linux_amd64$"
-    autoupdate.asset.arm64 = "swingmusic_linux_pi5$"
+    autoupdate.asset.amd64 = "swingmusic_linux_x86_64$"
+    autoupdate.asset.arm64 = "swingmusic_linux_aarch64$"
 
     [resources.system_user]
 
