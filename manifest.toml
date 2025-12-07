@@ -7,7 +7,7 @@ name = "Swing Music"
 description.en = "Beautiful music player for your local audio files"
 description.fr = "Magnifique lecteur de musique pour vos fichiers audios locaux"
 
-version = "2.0.9~ynh2"
+version = "2.1.3~ynh1"
 
 maintainers = ["Thovi98"]
 
@@ -41,11 +41,11 @@ ram.runtime = "100M"
 [resources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.9/swingmusic_linux_amd64"
-    amd64.sha256 = "1b7bc48f17e43f4d64d2d8c51ca600ae8c0975609b536aefdaac48a15a8ec1a5"
+    amd64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.1.3/swingmusic_linux_x86_64"
+    amd64.sha256 = "72dc8cee186817e3080962dd3d743eeef3e542fa75e2a54e1abb457f970e7e18"
 
-    arm64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.0.9/swingmusic_linux_pi5"
-    arm64.sha256 = "553602d920248198072a4c64592f1b7862ee6d7a4fe4e8313f0fc64a3faae176"
+    arm64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.1.3/swingmusic_linux_aarch64"
+    arm64.sha256 = "6567146156d8022e1de7a01d7be7bad8b10472f8eb53d67c343706ddb61b6d9e"
 
     extract = false
     rename = "swingmusic"
