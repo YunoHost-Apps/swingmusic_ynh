@@ -41,11 +41,11 @@ ram.runtime = "100M"
 [resources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.1.3/swingmusic_linux_x86_64"
-    amd64.sha256 = "72dc8cee186817e3080962dd3d743eeef3e542fa75e2a54e1abb457f970e7e18"
+    amd64.url = "https://github.com/orhtej2/swingmusic/releases/download/v2.1.3/swingmusic_linux_x86_64"
+    amd64.sha256 = "cf3f5afc5b032b4ccd727c3a07b3178fcf90699000ffe50b9bfff3316c7606a6"
 
-    arm64.url = "https://github.com/swingmx/swingmusic/releases/download/v2.1.3/swingmusic_linux_aarch64"
-    arm64.sha256 = "6567146156d8022e1de7a01d7be7bad8b10472f8eb53d67c343706ddb61b6d9e"
+    arm64.url = "https://github.com/orhtej2/swingmusic/releases/download/v2.1.3/swingmusic_linux_aarch64"
+    arm64.sha256 = "943e9b1d4c6d6d7c5916ad096cacda464a377b1601c8466c193899f0655a38fe"
 
     extract = false
     rename = "swingmusic"
@@ -53,6 +53,7 @@ ram.runtime = "100M"
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = "swingmusic_linux_x86_64$"
     autoupdate.asset.arm64 = "swingmusic_linux_aarch64$"
+    autoupdate.upstream = "https://github.com/orhtej2/swingmusic"
 
     [resources.system_user]
 
