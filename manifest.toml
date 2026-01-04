@@ -53,7 +53,6 @@ ram.runtime = "100M"
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = "swingmusic_linux_x86_64$"
     autoupdate.asset.arm64 = "swingmusic_linux_aarch64$"
-    autoupdate.upstream = "https://github.com/orhtej2/swingmusic"
 
     [resources.system_user]
 
